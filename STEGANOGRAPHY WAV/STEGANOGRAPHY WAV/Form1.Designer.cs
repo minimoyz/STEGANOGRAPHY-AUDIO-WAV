@@ -33,8 +33,8 @@
             this.browsebutton = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -63,6 +63,7 @@
             this.browsebutton.TabIndex = 2;
             this.browsebutton.Text = "Browse";
             this.browsebutton.UseVisualStyleBackColor = true;
+            this.browsebutton.Click += new System.EventHandler(this.browsebutton_Click);
             // 
             // tabControl1
             // 
@@ -85,6 +86,15 @@
             this.tabPage1.Text = "Sembunyikan Pesan";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(136, 155);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Sembunyikan";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
@@ -94,15 +104,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Ekstrak";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(136, 155);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Sembunyikan";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
